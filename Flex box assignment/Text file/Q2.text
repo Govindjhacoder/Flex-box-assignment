@@ -1,0 +1,43 @@
+1. justify-content:
+
+This property defines how the browser distributes space between and around content items along the main axis (horizontal axis in a row or vertical axis in a column). It aligns the items within the flex container.
+Possible values include:
+flex-start: Items are packed towards the start of the flex container.
+flex-end: Items are packed towards the end of the flex container.
+center: Items are centered along the line.
+space-between: Items are evenly distributed in the container with space between them.
+space-around: Items are evenly distributed in the container with space around them.
+space-evenly: Items are distributed so that the spacing between any two items (and the space to the edges) is equal.
+
+2. align-items:
+
+This property defines how the browser aligns items along the cross axis (perpendicular to the main axis). It works similarly to justify-content, but it applies to the cross axis.
+Possible values include:
+flex-start: Cross-start margin edge of the items is placed on the cross-start line.
+flex-end: Cross-end margin edge of the items is placed on the cross-end line.
+center: Items are centered along the cross-axis.
+baseline: Items are aligned such as their baselines align.
+stretch: Items are stretched to fill the container.
+
+3. align-self:
+
+This property allows the individual items within the flex container to override the align-items property for their own alignment.
+Possible values are the same as align-items.
+
+4. flex-direction:
+
+This property establishes the main-axis of the flex container and defines the direction in which the flex items are placed in the flex container.
+Possible values include:
+row: Items are placed along the main axis from the start to the end.
+column: Items are placed along the cross axis from the start to the end.
+row-reverse: Same as row but reversed.
+column-reverse: Same as column but reversed.
+
+5.flex-wrap:
+
+This property defines whether the flex container should wrap the flex items onto multiple lines or not.
+Possible values include:
+nowrap: All flex items are on one line.
+wrap: Flex items will wrap onto multiple lines as needed.
+wrap-reverse: Flex items will wrap onto multiple lines, but in reverse order.
+These properties provide fine-grained control over the layout and alignment of flex items within a Flexbox container.
